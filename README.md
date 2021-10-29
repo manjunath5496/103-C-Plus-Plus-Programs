@@ -657,3 +657,84 @@ int main()
 
 ```
 ----------------------------------------
+
+
+# Question 21
+
+### **Question:**
+
+> ***Write a program to Find Largest of 3 numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int a, b, c;
+    cout <<"Enter First number : ";
+    cin>>a;
+    cout <<"\nEnter Second number : ";
+    cin>>b;
+    cout <<"\nEnter Third number : ";
+    cin>>c;
+
+    if(a>=b && a>=c)
+    {
+    cout<<"\nThe Largest number among [ "<<a<<", "<<b<<", "<<c<<" ] is : "<<a<<"\n";
+    }
+    if(b>=a && b>=c)
+    {
+    cout<<"\nThe Largest number among [ "<<a<<", "<<b<<", "<<c<<" ] is : "<<b<<"\n";
+    }
+    if(c>=a && c>=b)
+    {
+    cout<<"\nThe Largest number among [ "<<a<<", "<<b<<", "<<c<<" ] is : "<<c<<"\n";
+    }
+
+   return 0;
+}
+
+```
+----------------------------------------
+
+# Question 22
+
+### **Question:**
+
+> ***Write a program to Print Multiplication Table of a entered number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int i,n,x=1;
+
+    cout<<"Enter a positive number : ";
+    cin>>n;
+
+    cout<<"\nMultiplication Table of a entered number [ "<<n<<" ] : \n\n";
+    for(i=1;i<=10;i++)
+    {
+        x=n*i;
+        cout<<"\t"<<n<<" x "<<i<<" = "<<x<<"\n\n";
+    }
+
+    return 0;
+}
+
+
+```
+----------------------------------------
+
