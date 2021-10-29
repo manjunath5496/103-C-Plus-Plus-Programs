@@ -171,7 +171,7 @@ int main(){
     cout << "Enter the Breadth of a Rectangle : \n";
     cin >> breadth;
     area = length*breadth;
-    cout << "Area of Rectangle : " << area <<endl;
+    cout << "Area of Rectangle : " << area;
       
     return 0;
 }
@@ -204,7 +204,7 @@ int main(){
     cout << "Enter the Base of a Parallelogram : \n";
     cin >> base;
    	area = height*base;
-    cout << "Area of Parallelogram : " << area <<endl;
+    cout << "Area of Parallelogram : " << area;
       
     return 0;
 }
