@@ -738,3 +738,73 @@ int main()
 ```
 ----------------------------------------
 
+
+# Question 23
+
+### **Question:**
+
+> ***Write a program to Display all Factors of a Number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, i;
+
+    cout << "Enter a number : ";
+    cin >> n;
+
+    cout << "Factors of " << n << " : "<< endl;  
+    for(i = 1; i <= n; i++) {
+        if(n % i == 0)
+            cout << i << " " <<endl;
+    }
+
+    return 0;
+}
+
+```
+----------------------------------------
+
+
+# Question 24
+
+### **Question:**
+
+> ***Write a program to Find the Frequency of a Character in a String.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string str = "C++ is a general-purpose programming language.";
+    char c = 'a';
+    int count = 0;
+
+    for (int i = 0; i < str.size(); i++)
+    {
+        if (str[i] ==  c)
+        {
+            count ++;
+        }
+    }
+
+    cout << "Frequency of alphabet " << c << " in the string is: " << count;
+
+    return 0;
+}
+
+
+```
+----------------------------------------
