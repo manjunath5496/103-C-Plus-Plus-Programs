@@ -1165,3 +1165,75 @@ int main()
 
 ```
 ----------------------------------------
+
+
+# Question 36
+
+### **Question:**
+
+> ***Write a program to Find Quotient and Remainder.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+int main()
+{    
+    int divisor, dividend, quotient, remainder;
+
+    cout << "Enter dividend: ";
+    cin >> dividend;
+
+    cout << "Enter divisor: ";
+    cin >> divisor;
+
+    quotient = dividend / divisor;
+    remainder = dividend % divisor;
+
+    cout << "Quotient = " << quotient << endl;
+    cout << "Remainder = " << remainder;
+
+    return 0;
+}
+```
+----------------------------------------
+
+
+# Question 37
+
+### **Question:**
+
+> ***Write a program to calculate discount.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+int main() {
+	int bill;
+	int discount;
+
+	cout << "Enter bill amount : ";
+	cin >> bill;
+
+	cout << "Enter discount percentage : ";
+	cin >> discount;
+
+	int afterDiscount = bill - (bill * discount / 100);
+
+	cout << "After discount your bill is : " << afterDiscount;
+	
+	return 0;
+}
+```
+----------------------------------------
+
+
