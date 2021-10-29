@@ -1080,3 +1080,88 @@ int main()
 }
 ```
 ----------------------------------------
+
+
+# Question 33
+
+### **Question:**
+
+> ***Write a program to Check Whether a entered character is Vowel or Consonant.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+    char ch;
+    cout<<"Enter a Character : ";
+    cin>>ch;
+    if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u')
+        cout<< ch<< " is a Vowel";
+    else if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U')
+        cout<< ch<<" is a Vowel";
+    else
+        cout<< ch<<" is a Consonant";
+    cout<<endl;
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 34
+
+### **Question:**
+
+> ***Write a program to Convert Celsius to Fahrenheit.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+    float celsius, fahrenheit;
+    cout<<"Enter the Temperature in Celsius : ";
+    cin>>celsius;
+    fahrenheit = (celsius*1.8)+32;
+    cout<<"\nEquivalent Temperature in Fahrenheit : "<<fahrenheit;
+    cout<<endl;
+    return 0;
+}
+
+```
+----------------------------------------
+
+# Question 35
+
+### **Question:**
+
+> ***Write a program to Convert Pounds to Grams.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+    float pound,gram;
+    cout<<"Enter Weight in Pounds  : ";
+    cin>>pound;
+     gram = pound*453.592;
+    cout<<pound<<" Pound  = "<< gram << " Grams ";
+    cout<<endl;
+    return 0;
+}
+
+```
+----------------------------------------
