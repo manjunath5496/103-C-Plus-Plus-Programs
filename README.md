@@ -211,3 +211,98 @@ int main(){
 	
 ```
 ----------------------------------------
+
+
+# Question 8
+
+### **Question:**
+
+> ***Write a program to Calculate Area of Trapezoid.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+  
+int main(){
+    
+    int height;
+    int base1,base2;
+	long area;
+    cout << "Enter the Height of a Trapezoid : \n";
+    cin >> height;
+    cout << "Enter the Base 1 value : \n";
+    cin >> base1;
+    cout << "Enter the Base 2 value : \n";
+    cin >> base2;
+    area = (height/2)*(base1+base2);
+    cout << "Area of Trapezoid : " << area;
+      
+    return 0;
+}
+```
+----------------------------------------
+
+
+# Question 9
+
+### **Question:**
+
+> ***Write a program to Calculate Volume of Cube.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+    int main()
+    {
+    	int side;
+    	float volume;
+        cout<<" Enter the side of cube : ";
+    	cin>>side;
+    	volume=(side*side*side);
+        cout<<" The volume of a cube is : "<< volume;
+     
+        return 0;
+    }
+
+
+```
+----------------------------------------
+
+# Question 10
+
+### **Question:**
+
+> ***Write a program to Calculate Volume of Cylinder.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+    int main()
+    {
+    	const float PI = 3.141592;  
+        float radius, height, volume;  
+        cout<<" Enter Radius of the Cylinder \n ";
+    	cin>>radius;
+    	cout<<" Enter Height of the Cylinder \n  ";
+    	cin>>height;
+    	volume = PI * radius * radius * height; 
+        cout<<" Volume of Cylinder is : "<< volume;
+     
+        return 0;
+    }
+```
+----------------------------------------
