@@ -808,3 +808,36 @@ int main()
 
 ```
 ----------------------------------------
+
+# Question 25
+
+### **Question:**
+
+> ***Write a program to Find Sum of n Natural Numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int i,n,sum=0;
+    cout<<"\nEnter a number : ";
+    cin>>n;
+
+    for(i=1;i<=n;i++)
+    {
+        sum=sum+i;
+    }
+
+    cout<<"\nSum of first [ "<<n<<" ] Numbers : "<<sum<<"\n";
+    return 0;
+}
+
+```
+----------------------------------------
