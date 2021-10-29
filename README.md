@@ -841,3 +841,172 @@ int main()
 
 ```
 ----------------------------------------
+
+
+# Question 26
+
+### **Question:**
+
+> ***Write a program to Convert Kilometer to Miles.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+int main() {
+	float kilometers;
+	std::cout << "Enter Length in Kilometer  : ";
+	std::cin >> kilometers;
+	float miles = (0.621371* kilometers);
+	std::cout << miles << " Miles";
+	return 0;
+}
+
+```
+----------------------------------------
+
+# Question 27
+
+### **Question:**
+
+> ***Write a program to Convert Yard to Foot.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+int main() {
+  float yard;
+  float foot;
+	std::cout << "Enter Length in Yard  : ";
+	std::cin >> yard;
+	foot = (3*yard);
+	std::cout << yard << " Yard in Foot = " << foot;
+	return 0;
+}
+
+
+```
+----------------------------------------
+
+# Question 28
+
+### **Question:**
+
+> ***Write a program to Convert Inch to Cm.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+int main() {
+  float inch;
+  float cm;
+	std::cout << "Enter Length in inch  : ";
+	std::cin >> inch;
+	cm = (2.54*inch);
+	std::cout << inch << " Inch in cm = " << cm;
+	return 0;
+}
+
+
+```
+----------------------------------------
+
+# Question 29
+
+### **Question:**
+
+> ***Write a program to Find Sum of Square of first n Natural numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    unsigned long n,i,sum=0,d;
+    cout<<"Enter a number : ";
+    cin>>n;
+
+    for(i=1;i<=n; i++)
+    {
+        d=i*i;
+        sum = sum + d;
+    }
+
+    cout<<"\nSum of square of [ "<<n<<" ] Numbers = "<<sum<<"\n";
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 30
+
+### **Question:**
+
+> ***Write a program to Design Simple Calculator.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+# include <iostream>
+using namespace std;
+
+int main()
+{
+    char op;
+    float num1, num2;
+
+    cout << "\nEnter a number : ";
+    cin >> num1;
+    cout << "\nEnter a number : ";
+    cin >> num2;
+
+    cout << "\nEnter operator [ + or - or * or / ] : ";
+    cin >> op;
+
+
+    switch(op)
+    {
+        case '+':
+            cout <<"\nAddition of [ "<<num1<<" + "<<num2<<" ] = "<< num1+num2<<"\n";
+            break;
+
+        case '-':
+            cout <<"\nSubtraction of [ "<<num1<<" - "<<num2<<" ] = "<< num1-num2<<"\n";
+            break;
+
+        case '*':
+            cout <<"\nMultiplication of [ "<<num1<<" * "<<num2<<" ] = "<< num1*num2<<"\n";
+            break;
+
+        case '/':
+            cout <<"\nDivision of [ "<<num1<<" / "<<num2<<" ] = "<< num1/num2<<"\n";
+            break;
+
+        default:
+            cout << "\nError! operator is not correct\n";
+            break;
+    }
+
+    return 0;
+}
+```
+----------------------------------------
