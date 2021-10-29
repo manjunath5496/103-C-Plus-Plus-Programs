@@ -306,3 +306,33 @@ using namespace std;
     }
 ```
 ----------------------------------------
+
+# Question 11
+
+### **Question:**
+
+> ***Write a program to Calculate Area of an Ellipse.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+#define PI 3.141592
+    int main()
+    {
+    	float major, minor, area;
+        cout<<" Enter length of major axis: \n ";
+    	cin>>major;
+    	cout<<" Enter length of minor axis: \n  ";
+    	cin>>minor;
+    	area = PI * major * minor;
+        cout<<" Area of an ellipse = "<< area;
+     
+        return 0;
+    }
+
+```
+----------------------------------------
