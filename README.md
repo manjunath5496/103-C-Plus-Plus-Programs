@@ -1010,3 +1010,73 @@ int main()
 }
 ```
 ----------------------------------------
+
+
+# Question 31
+
+### **Question:**
+
+> ***Write a program to Concatenate Two Strings.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string s1, s2, result;
+
+    cout << "Enter the first string : ";
+    getline (cin, s1);
+
+    cout << "Enter the second string : ";
+    getline (cin, s2);
+
+    result = s1 + s2;
+
+    cout << "String obtained on concatenation : "<< result;
+
+    return 0;
+}
+```
+----------------------------------------
+
+
+# Question 32
+
+### **Question:**
+
+> ***Write a program to Find the Number of Digits in a number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n,num,i=0;
+
+    cout<<"Enter a number : ";
+    cin>>n;
+
+    num=n;
+
+    while(num>0)
+    {
+        num=num/10;
+        i++;
+    }
+    cout<<"\nNumber of Digits in a number [ "<<n<<" ] is : "<<i<<"\n";
+
+   return 0;
+}
+```
+----------------------------------------
