@@ -2152,7 +2152,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to demonstrate Scope resolution operator ::.***
+> ***Write a program to demonstrate Scope resolution operator (::) .***
 
 ---------------------------------------
 
