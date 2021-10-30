@@ -2600,3 +2600,73 @@ return 0;
 }
 ```
 ----------------------------------------
+
+
+# Question 78
+
+### **Question:**
+
+> ***Write a program to calculate profit or loss.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+# include <iostream>
+using namespace std;
+int main()
+{
+	int cp,sp,profit, loss;
+	cout <<"Enter cost price: "<<endl;
+	cin>>cp;
+	cout <<"Enter selling price: "<<endl;
+	cin>>sp;
+	if(sp>cp)
+	{
+		profit=sp-cp;
+		cout<<"profit amount = "<<profit<<endl;
+	}
+	else if(cp>sp)
+{
+	loss=cp-sp;
+	cout<<"loss amount = "<<loss<<endl;
+}
+else
+{
+	cout<<"no profit no loss.";
+}
+}
+```
+----------------------------------------
+
+# Question 79
+
+### **Question:**
+
+> ***Write a program to check whether the person is a senior citizen or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+int age;
+age=20;
+if(age >= 60)
+{
+cout<<"Senior citizen";
+}
+if(age<60)
+{
+cout<<"Not a senior citizen";
+}
+return 0;
+}
+```
+----------------------------------------
+
