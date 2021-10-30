@@ -2271,3 +2271,64 @@ return x+y;
 ----------------------------------------
 
 
+# Question 68
+
+### **Question:**
+
+> ***Write a program to Check Triangle is Valid using Angles.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int angle1, angle2, angle3, sum;
+	
+	cout << "\nEnter Three Angles of a Triangle =  ";
+	cin >> angle1 >> angle2 >> angle3;
+	
+	sum = angle1 + angle2 + angle3;
+	
+	if( sum == 180)
+  	{
+  		cout << "\nThis is a Valid Triangle";
+  	}
+  	else
+    	cout << "\nThis is an Invalid Triangle";
+		
+ 	return 0;
+}
+```
+----------------------------------------
+
+# Question 69
+
+### **Question:**
+
+> ***Write a program to print the absolute value of -8.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main() {
+
+  cout << abs(-8);
+
+  return 0;
+}
+
+```
+----------------------------------------
+
+
