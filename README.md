@@ -3029,4 +3029,70 @@ int main()
 ```
 ----------------------------------------
 
+# Question 91
+
+### **Question:**
+
+> ***Write a program to check whether the entered character is a hexadecimal digit character or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char a;
+    cout<< "Enter a character : ";
+    cin>> a;
+    if(isxdigit(a)) {
+        cout<<a<< " is a hexadecimal digit character.";
+    }
+    else
+    {
+       cout<<a<< " is NOT a hexadecimal digit character.";
+    }
+    return 0;
+}
+
+```
+----------------------------------------
+
+
+# Question 92
+
+### **Question:**
+
+> ***Write a program to check whether the entered character is punctuation character or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char a;
+    cout<< "Enter a character : ";
+    cin>> a;
+    if(ispunct(a)) {
+        cout<<a<< " is an punctuation character.";
+    }
+    else
+    {
+       cout<<a<< " is NOT an punctuation character.";
+    }
+    return 0;
+}
+```
+----------------------------------------
+
 
