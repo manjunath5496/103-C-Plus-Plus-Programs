@@ -2859,3 +2859,65 @@ int main()
 ```
 ----------------------------------------
 
+
+
+
+# Question 86
+
+### **Question:**
+
+> ***Write a program to Read a number and find all its divisor.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+long int x,i;
+cout<<"Enter a number: ";
+cin>>x;
+cout<<endl<<"Divisors of "<<x<<" are: ";
+ 
+for(i=1; i<=x; i++)
+{
+if(x%i==0)
+cout<<" "<<i;
+}
+ 
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 87
+
+### **Question:**
+
+> ***Write a program to Demonstrate Infinite Loop.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+using namespace std;
+
+int main() {
+int i = 10;
+for( ; ;) {
+cout << i<<endl;
+}
+    return 0;
+}
+```
+----------------------------------------
+
