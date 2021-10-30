@@ -1759,3 +1759,65 @@ return 0;
 }
 ```
 ----------------------------------------
+
+# Question 51
+
+### **Question:**
+
+> ***Write a program to print the average of the elements in the array.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+int i, avg, sum = 0;
+int num [5] = {16, 18, 20, 25, 36};
+for(i=0; i<5; i++)
+sum = sum + num [i];
+avg = sum/5;
+cout<<"Sum of the Elements in the array = "<< sum <<endl;
+cout<<"Average of the elements in the array= "<< avg<<endl;
+return 0;
+}
+```
+----------------------------------------
+
+# Question 52
+
+### **Question:**
+
+> ***Write a program to find the greatest of two numbers using pointers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+int x, y, *p, *q;
+cout<<"Enter any integer:";
+cin>> x;
+cout<<"Enter any integer:";
+cin>> y;
+p = &x;
+q = &y;
+if(*p>*q)
+{
+cout<<"x is greater than y";
+}
+else
+{
+cout<<"y is greater than x";
+}
+return 0;
+}
+```
+----------------------------------------
