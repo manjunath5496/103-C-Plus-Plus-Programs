@@ -2393,3 +2393,38 @@ int main()
 }
 ```
 ----------------------------------------
+
+# Question 72
+
+### **Question:**
+
+> ***Write a program to Check whether a Number is Divisible by 5 and 11.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int number;
+	
+	cout << "\nEnter any Number to Check it is Divisible by 5 and 11:  ";
+	cin >> number;
+	
+	if(( number % 5 == 0 ) && ( number % 11 == 0 ))
+	{
+		cout << number << " is Divisible by 5 and 11";
+	}
+	else
+	{
+		cout << number << " is Not Divisible by 5 and 11";
+	}
+		
+ 	return 0;
+}
+```
+----------------------------------------
