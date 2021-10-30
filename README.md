@@ -2786,4 +2786,35 @@ Bjarne Stroustrup
 ----------------------------------------
 
 
+# Question 84
+
+### **Question:**
+
+> ***Write a program to convert specified days into years, weeks and days.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+int days, years, weeks;
+ 
+cout<<"Enter Number of days : ";
+cin>>days;
+     years = days/365; 
+    weeks = (days % 365)/7;
+    days = days - ((years*365) + (weeks*7));
+ 
+cout<<"\nYears: "<<years<<"\nWeeks: "<<weeks<<"\nDays: "<<days;
+return 0;
+}
+```
+----------------------------------------
+
 
