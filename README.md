@@ -2818,3 +2818,44 @@ return 0;
 ----------------------------------------
 
 
+# Question 85
+
+### **Question:**
+
+> ***Write a program to Check the password until it is correct.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int pass, a;	
+
+	while (a!=0)
+	{
+	cout<<"\nInput the password: ";
+	cin>>pass;	
+	
+	if (pass==1988)
+	{
+	cout<<"Correct password";
+		a=0;
+    }
+    else
+    {
+       cout<<"Wrong password, try again";       
+	}
+    cout<<"\n";
+   }
+	return 0;
+}
+
+```
+----------------------------------------
+
