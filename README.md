@@ -2180,6 +2180,33 @@ int main() {
 ```
 ----------------------------------------
 
+# Question 65
+
+### **Question:**
+
+> ***Write a program to Convert Radian to Degree.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float degree, radian, PI = 3.14;
+    
+    cout << "Enter Radian Value to Convert : ";
+    cin >> radian;
+    degree = radian * 180/PI;
+    cout << radian << " Radian = " <<degree<<" Degree";
+    
+    return 0;
+}
+```
+----------------------------------------
 
 
 
