@@ -2369,27 +2369,27 @@ int main()
 
 ### **Question:**
 
-> ***Write a program that inputs one 3-digit number and separates the number into its individual digits and prints the digits separated from one another by at least 3 spaces each.***
+> ***Write a program to Print 1 to 100.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
 ```C++ language
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main() 
-{
-    int num, digit1, digit2, digit3;
-    cout <<"Enter a 3 digit whole number: ";
-    cin >> num; 
-    digit3 = num % 10;   
-    num = num / 10;    
-    digit2 = num % 10;  
-    num = num / 10;
-    digit1 = num % 10;   	
-    cout << digit1 <<"  "<< digit2 <<"  " << digit3 <<"\n";
-    return 0;
+
+int main()
+{	
+	int i = 1;
+	
+	while(i <= 100)
+	{
+		cout << i << " ";
+		i++;
+	}
+	
+ 	return 0;
 }
 ```
 ----------------------------------------
