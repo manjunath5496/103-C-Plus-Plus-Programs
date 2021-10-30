@@ -1732,15 +1732,15 @@ int main()
 
 ### **Question:**
 
-> ***Write a program to print the output:
-Einstein [0] = E
-Einstein [1] = I
-Einstein [2] = N
-Einstein [3] = S
-Einstein [4] = T
-Einstein [5] = E
-Einstein [6] = I
-Einstein [7] = N***
+> ***Write a program to print the output:</br>
+Einstein [0] = E</br>
+Einstein [1] = I</br>
+Einstein [2] = N</br>
+Einstein [3] = S</br>
+Einstein [4] = T</br>
+Einstein [5] = E</br>
+Einstein [6] = I</br>
+Einstein [7] = N</br>***
 
 ---------------------------------------
 
