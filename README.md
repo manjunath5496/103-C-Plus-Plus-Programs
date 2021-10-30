@@ -1936,7 +1936,7 @@ int main ()
     cout<<"Enter string 2 : ";
     cin>>b;
     if(strcmp(a, b)==0)
-        cout << "Strings are equal!";
+        cout << "Strings are equal.";
     else
         cout << "Strings are not equal.";
     return 0;
