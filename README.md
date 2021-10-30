@@ -2428,3 +2428,102 @@ int main()
 }
 ```
 ----------------------------------------
+
+# Question 73
+
+### **Question:**
+
+> ***Write a program to Print Even Numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int number;
+	
+	cout << "\nEnter Maximum limit Value to print Even Numbers =  ";
+	cin >> number;
+	
+	cout << "\nList of Even Numbers from 1 to " << number << " are\n"; 
+	for(int i = 1; i <= number; i++)
+  	{
+  		if ( i % 2 == 0 )
+  		{
+  			cout << i <<" ";
+		}	
+  	}
+		
+ 	return 0;
+}
+```
+----------------------------------------
+
+
+# Question 74
+
+### **Question:**
+
+> ***Write a program to print first 5 numbers using do while loop statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int i = 1; 
+
+    while (i <= 5) {
+        cout << i << " "<<endl;
+        i++;
+    }
+    
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 75
+
+### **Question:**
+
+> ***Write a program to Print Odd Numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int number;
+	
+	cout << "\nEnter Maximum limit Value to print Odd Numbers =  ";
+	cin >> number;
+	
+	cout << "\nList of Odd Numbers from 1 to " << number << " are\n"; 
+	for(int i = 1; i <= number; i++)
+  	{
+  		if ( i % 2 ==! 0 )
+  		{
+  			cout << i <<" ";
+		}	
+  	}
+		
+ 	return 0;
+}
+```
+----------------------------------------
