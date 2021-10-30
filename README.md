@@ -1579,3 +1579,183 @@ int main()
 ```
 ----------------------------------------
 
+
+
+# Question 47
+
+### **Question:**
+
+> ***Write a program To print "hello world" 10 times.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+int i;
+for (i =1; i<=10; i ++)
+cout<<"\n hello world";
+return 0;
+}
+```
+----------------------------------------
+
+# Question 48
+
+### **Question:**
+
+> ***Write a program to find square of a number using functions.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int square();
+int main()
+{
+int answer;
+answer = square();
+cout<<"Square of the given number = "<< answer;
+return 0;
+}
+int square()
+{
+int x;
+cout<<"Enter any integer:";
+cin>>x;
+return x*x;
+}
+```
+----------------------------------------
+
+
+# Question 49
+
+### **Question:**
+
+> ***Write a program to Print Number of Days in a Month.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int month;
+    cout << "Enter month number (1-12): ";
+    cin >> month;
+
+    if(month == 1)
+    {
+        cout << "Entered month : January " <<endl;
+        cout << "Number of days : 31 days" <<endl;
+    }
+    else if(month == 2)
+    {
+        cout << "Entered month : February " <<endl;
+        cout << "Number of days :  28 or 29 days" <<endl;
+    }
+    else if(month == 3)
+    {
+        cout << "Entered month : March " <<endl;
+        cout << "Number of days :  31 days" <<endl;
+    }
+    else if(month == 4)
+    {
+        cout << "Entered month : April " <<endl;
+        cout << "Number of days :  30 days" <<endl;
+    }
+    else if(month == 5)
+    {
+        cout << "Entered month : May " <<endl;
+        cout << "Number of days :  31 days" <<endl;
+    }
+    else if(month == 6)
+    {
+        cout << "Entered month : June " <<endl;
+        cout << "Number of days :  30 days" <<endl;
+    }
+    else if(month == 7)
+    {
+        cout << "Entered month : July " <<endl;
+        cout << "Number of days :  31 days" <<endl;
+    }
+    else if(month == 8)
+    {
+        cout << "Entered month : August " <<endl;
+        cout << "Number of days :  31 days" <<endl;
+    }
+    else if(month == 9)
+    {
+        cout << "Entered month : September " <<endl;
+        cout << "Number of days :  30 days" <<endl;
+    }
+    else if(month == 10)
+    {
+        cout << "Entered month : October " <<endl;
+        cout << "Number of days :  31 days" <<endl;
+
+    }
+    else if(month == 11)
+    {
+        cout << "Entered month : November " <<endl;
+        cout << "Number of days :  30 days" <<endl;
+    }
+    else if(month == 12)
+    {
+        cout << "Entered month : December " <<endl;
+        cout << "Number of days :  31 days" <<endl;
+    }
+    else
+    {
+        cout << "Invalid input! Please enter month number between (1-12).";
+    }
+
+    return 0;
+
+}
+```
+----------------------------------------
+
+# Question 50
+
+### **Question:**
+
+> ***Write a program to print the output:
+Einstein [0] = E
+Einstein [1] = I
+Einstein [2] = N
+Einstein [3] = S
+Einstein [4] = T
+Einstein [5] = E
+Einstein [6] = I
+Einstein [7] = N***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+int i;
+char name [8] = {'E' , 'I', 'N', 'S', 'T', 'E', 'I', 'N'};
+for(i=0; i<8; i++)
+cout<<"Element ["<< i <<" ] = "<< name[i] << endl;
+return 0;
+}
+```
+----------------------------------------
