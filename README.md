@@ -1994,3 +1994,28 @@ return 0;
 }
 ```
 ----------------------------------------
+
+# Question 59
+
+### **Question:**
+
+> ***Write a program to check whether the entered character is a upper case letter or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+char ch = 'a';
+if(isupper(ch))
+cout<<"you have entered the upper case letter";
+else
+cout<<"you have entered the lower case letter";
+return 0;
+}
+```
+----------------------------------------
