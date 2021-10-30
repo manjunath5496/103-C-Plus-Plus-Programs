@@ -1349,3 +1349,65 @@ int main()
 ----------------------------------------
 
 
+# Question 41
+
+### **Question:**
+
+> ***Write a program to Calculate sum of Digits of Entered Number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+
+int main()
+{
+   int n, m, sum = 0;
+
+    cout<<"Enter a number : ";
+    cin>>n;
+
+   m = n;
+
+   while (m != 0)
+   {
+  
+      sum = sum + m % 10;
+      m = m / 10;
+   }
+
+cout<<"\nSum of digits of [ "<<n<<" ] is : "<<sum<<"\n";
+
+   return 0;
+}
+```
+----------------------------------------
+
+# Question 42
+
+### **Question:**
+
+> ***Write a program to Get Input from User.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+    int val;
+    cout<<"Enter the Number : ";
+    cin>>val;
+    cout<<"\nThe Entered number is "<<val;
+    cout<<endl;
+    return 0;
+}
+```
+----------------------------------------
+
