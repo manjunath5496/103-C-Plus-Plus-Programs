@@ -2034,3 +2034,60 @@ return 0;
 }
 ```
 ----------------------------------------
+
+# Question 60
+
+### **Question:**
+
+> ***Write a program to Convert Uppercase to Lowercase.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+#include <cctype>
+using namespace std;
+
+int main() {
+
+  char ch = tolower('A');
+
+  cout << ch;
+
+  return 0;
+}
+
+```
+----------------------------------------
+
+
+# Question 61
+
+### **Question:**
+
+> ***Write a program to calculate the simple interest.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+int P,T, R, SI;
+cout<<"Enter principal amount:";
+cin>>P;
+cout<<"Enter time:";
+cin>>T;
+cout<<"Enter rate of interest:";
+cin>>R;
+SI = P*T*R/100;
+cout<<"the simple interest = "<<SI;
+return 0;
+}
+```
+----------------------------------------
