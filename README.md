@@ -1495,3 +1495,87 @@ int main(){
 ```
 ----------------------------------------
 
+
+# Question 45
+
+### **Question:**
+
+> ***Write a program to generate random numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main ()
+{
+  int n, b, i;
+
+  cout << "Enter the number of random numbers you want:" << endl;
+  cin >> n;
+
+  cout << "Random numbers are:" << endl;
+
+  for (i = 1; i <= n; i++)
+  {
+    b = random();
+    cout << b << endl;
+  }
+
+  return 0;
+}
+```
+----------------------------------------
+
+
+# Question 46
+
+### **Question:**
+
+> ***Write a program to Display day of week using switch case.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    int day;
+ 
+   cout<<"Enter week number(1-7): ";
+   cin>>day;
+ 
+    switch(day)
+    {
+        case 1: cout<<"Monday";
+            break;
+        case 2: cout<<"Tuesday";
+            break;
+        case 3: cout<<"Wednesday";
+            break;
+        case 4: cout<<"Thursday";
+            break;
+        case 5: cout<<"Friday";
+            break;
+        case 6: cout<<"Saturday";
+            break;
+        case 7: cout<<"Sunday";
+            break;
+        default: cout<<"Invalid input! Please enter week number between 1-7.";
+    }
+ 
+    return 0;
+ 
+}
+```
+----------------------------------------
+
