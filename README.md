@@ -2210,4 +2210,64 @@ int main()
 
 
 
+# Question 66
+
+### **Question:**
+
+> ***Write a program to print the value of tan inverse x.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+int x = 20;
+cout<<"the value of tan inverse x = "<< atan(x);
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 67
+
+### **Question:**
+
+> ***Write a program to demonstrate that one function can be called multiple times.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int addition();
+int main()
+{
+int answer;
+answer = addition();
+cout<<"\n The sum of two numbers is: "<<answer<<endl;
+answer=0;
+answer = addition();
+cout<<"\n The sum of two numbers is: "<<answer<<endl;
+return 0;
+}
+int addition()
+{
+int x, y;
+cout<<"\n Enter any integer: ";
+cin>>x;
+cout<<"\n Enter any integer: ";
+cin>>y;
+return x+y;
+}
+```
+----------------------------------------
+
 
