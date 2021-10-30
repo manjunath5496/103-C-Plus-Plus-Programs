@@ -2527,3 +2527,76 @@ int main()
 }
 ```
 ----------------------------------------
+
+
+# Question 76
+
+### **Question:**
+
+> ***Write a program to check whether a character is an alphabet or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+#include <ctype.h>
+using namespace std;
+
+int main()
+{
+int a='b';
+if(isalpha(a))
+{
+cout<<"The character a is an alphabet";
+}
+else
+{
+cout<<"The character a is not an alphabet";
+}
+return 0;
+}
+
+```
+----------------------------------------
+
+
+# Question 77
+
+### **Question:**
+
+> ***Write a program to calculate the discounted price and the total price after discount</br>
+Given:</br>
+If purchase value is greater than 1000, 10% discount</br>
+If purchase value is greater than 5000, 20% discount</br>
+If purchase value is greater than 10000, 30% discount.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+double PV, dis;
+cout<<"Enter purchased value : ";
+cin>>PV;
+if(PV>1000)
+{
+cout<<"dis= "<< PV* 0.1;
+}
+else if(PV>5000)
+{
+cout<<"dis= "<< PV* 0.2;
+}
+else
+{
+cout<<"dis= "<< PV* 0.3;
+}
+return 0;
+}
+```
+----------------------------------------
