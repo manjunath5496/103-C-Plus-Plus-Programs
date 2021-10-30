@@ -3041,7 +3041,7 @@ int main()
 
 ```C++ language
 #include <iostream>
-
+#include <cctype>
 using namespace std;
 
 int main()
@@ -3075,7 +3075,7 @@ int main()
 
 ```C++ language
 #include <iostream>
-
+#include <cctype>
 using namespace std;
 
 int main()
