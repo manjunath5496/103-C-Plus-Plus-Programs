@@ -2727,3 +2727,32 @@ int main()
 }
 ```
 ----------------------------------------
+# Question 82
+
+### **Question:**
+
+> ***Write a program that asks the user to enter a number and print "You won 2 points" if the value is between 16 and 44 (both included). In the other case it print "You lost 2 points".***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int i;
+    cout << "Enter a number" << endl;
+    cin >> i;
+
+        if (i >= 16 && i <= 44 ){
+            cout << "You won 2 points" << endl;
+        }else{
+            cout << "You lost 2 points" << endl;
+        }
+
+}
+```
+----------------------------------------
