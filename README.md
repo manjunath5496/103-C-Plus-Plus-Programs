@@ -1821,3 +1821,176 @@ return 0;
 }
 ```
 ----------------------------------------
+
+
+
+# Question 53
+
+### **Question:**
+
+> ***Write a program to check whether the entered number is a prime number or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+ int num, i, count=0;
+    cout << "Enter a Number : ";  
+     cin >> num;
+    for(i=2; i<num; i++)
+    {
+        if(num%i == 0)
+        {
+            count++;
+            break;
+        }
+    }
+    if(count==0) {
+	
+	 cout<< num <<" is a prime number";
+    }
+    else {
+        cout<< num <<" is not a prime number";
+    }
+        
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 54
+
+### **Question:**
+
+> ***Write a program to print the product of the first 10 digits.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+int i, product = 1;
+for( i=1; i<=10; i++)
+product = product * i;
+cout<<"The product of the first 10 digits = " << product;
+return 0;
+}
+```
+----------------------------------------
+
+# Question 55
+
+### **Question:**
+
+> ***Write a program to print the characters from A to Z.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+char a = 'A';
+while (a<='Z')
+{
+cout<<" \n"<< a++;
+}
+return 0;
+}
+```
+----------------------------------------
+
+# Question 56
+
+### **Question:**
+
+> ***Write a program to Compare Two Strings.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main ()
+{
+    char a[50], b[50];
+    cout<<"Enter string 1 : ";
+    cin>>a;
+    cout<<"Enter string 2 : ";
+    cin>>b;
+    if(strcmp(a, b)==0)
+        cout << "Strings are equal!";
+    else
+        cout << "Strings are not equal.";
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 57
+
+### **Question:**
+
+> ***Write a program to Convert Lowercase to Uppercase.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   char ch;
+   cout<<"Enter a character in lowercase: "; 
+   cin>>ch;
+   ch=ch-32;
+   cout<<"Entered character in uppercase: "<<ch;
+   return 0;
+}
+```
+----------------------------------------
+
+# Question 58
+
+### **Question:**
+
+> ***Write a program to check whether the entered character is a lower case letter or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+char ch = 'a';
+if(islower(ch))
+cout<<"you have entered the lower case letter";
+else
+cout<<"you have entered the upper case letter";
+return 0;
+}
+```
+----------------------------------------
