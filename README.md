@@ -1455,3 +1455,43 @@ int main()
 ```
 ----------------------------------------
 
+
+# Question 44
+
+### **Question:**
+
+> ***Write a program to get sum of all odd numbers in given range.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+int main(){
+
+  int i;
+  int min,max;
+  long sum =0;
+
+  cout << "Enter the minimum range: ";
+  cin >> min;
+
+  cout << "Enter the maximum range: ";
+  cin >> max;
+
+  for(i = min; i <= max; i++)
+    if(i % 2 !=0)
+      sum = sum + i;
+
+  cout << "Sum of odd numbers in given range is: " << sum;
+
+  return 0;
+
+}
+
+```
+----------------------------------------
+
