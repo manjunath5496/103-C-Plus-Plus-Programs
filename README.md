@@ -1968,6 +1968,21 @@ int main()
    return 0;
 }
 ```
+
+```C++ language
+#include <iostream>
+#include <cctype>
+using namespace std;
+
+int main() {
+
+  char ch = toupper('a');
+
+  cout << ch;
+
+  return 0;
+}
+```
 ----------------------------------------
 
 # Question 58
