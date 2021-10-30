@@ -2694,3 +2694,36 @@ int main() {
 ```
 ----------------------------------------
 
+
+# Question 81
+
+### **Question:**
+
+> ***Write a program to check whether a triangle is valid (given sides of triangle).***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+int main() 
+{
+	int a, b, c;
+	cout << "Enter three sides of triangle: \n";
+	cin >> a; 
+	cin >> b;
+	cin >> c;
+	if ((a + b > c) && (a + c > b) && (b + c > a))
+	{
+		cout << "Triangle is valid.";
+	}
+	else
+	{
+		cout << "Triangle is not valid.";
+	}
+    return 0;
+}
+```
+----------------------------------------
