@@ -2756,3 +2756,34 @@ int main() {
 }
 ```
 ----------------------------------------
+# Question 83
+
+### **Question:**
+
+> ***What would be the output of the following program:***
+
+----------------------------------------
+
+```C++ language
+#include <iostream>
+void a(){ std::cout << "C++ Programming" << std::endl; }
+void b(){ std::cout << "Bjarne Stroustrup" << std::endl; }
+int main()
+{
+    a();
+    b();
+    return 0;
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+C++ Programming
+Bjarne Stroustrup
+```
+----------------------------------------
+
+
+
