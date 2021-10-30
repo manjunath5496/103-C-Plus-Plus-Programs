@@ -2091,3 +2091,35 @@ return 0;
 }
 ```
 ----------------------------------------
+# Question 62
+
+### **Question:**
+
+> ***Write a program to check the equivalence of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+int x, y;
+cout<<"Enter any number:";
+cin>>x;
+cout<<"Enter any number:";
+cin>>y;
+if(x-y==0)
+{
+cout<<"The two numbers are equivalent";
+}
+else
+{
+cout<<"The two numbers are not equivalent";
+}
+return 0;
+}
+```
+----------------------------------------
