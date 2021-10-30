@@ -1237,3 +1237,115 @@ int main() {
 ----------------------------------------
 
 
+# Question 38
+
+### **Question:**
+
+> ***Write a program to Swap two numbers using a Temporary variable.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, temp;
+    
+    cout << "\nEnter first number : ";
+    cin >> a;
+    cout << "\nEnter second number : ";
+    cin >> b;
+
+    cout << "\nBefore swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    temp = a;
+    a = b;
+    b = temp;
+
+    cout << "\nAfter swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    return 0;
+}
+```
+----------------------------------------
+
+
+# Question 39
+
+### **Question:**
+
+> ***Write a program to Swap two numbers without using a Temporary variable.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int a, b;
+    
+    cout << "\nEnter first number : ";
+    cin >> a;
+    cout << "\nEnter second number : ";
+    cin >> b;
+
+    cout << "\nBefore swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    cout << "\nAfter swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    return 0;
+}
+```
+----------------------------------------
+
+
+# Question 40
+
+### **Question:**
+
+> ***Write a program to Reverse Digits of a Number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number, reverse = 0;
+    cout<<"Enter a number: ";    
+    cin>>number;  
+    while(number != 0){
+        reverse = (reverse * 10) + number % 10;
+        number = number/10;
+    }    
+    cout<<"Reversed Number: "<<reverse<<endl;   
+     
+    return 0;
+}
+
+```
+----------------------------------------
+
+
