@@ -2921,3 +2921,38 @@ cout << i<<endl;
 ```
 ----------------------------------------
 
+
+# Question 88
+
+### **Question:**
+
+> ***Write a program to illustrate the ternary operation.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+using namespace std;
+
+/* 
+
+c will be assigned the value of a
+if a is less than b. 
+Otherwise, it will be assigned the value of b
+
+*/
+
+int main() {
+    int a = 30, b = 20, c;
+
+    c = (a < b) ? a : b;
+
+    cout<< c;
+   return(0);
+}
+```
+----------------------------------------
+
