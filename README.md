@@ -2123,3 +2123,25 @@ return 0;
 }
 ```
 ----------------------------------------
+# Question 63
+
+### **Question:**
+
+> ***Write a program to print the first 10 numbers starting from one together with their squares and cubes.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include<iostream>
+using namespace std;
+int main()
+{
+int i;
+for( i=1; i<=10; i++)
+cout<<"number = "<< i <<" its square = "<< i*i <<" its cube = "<< i*i*i<< endl;
+return 0;
+}
+```
+----------------------------------------
