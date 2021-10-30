@@ -1411,3 +1411,47 @@ int main()
 ```
 ----------------------------------------
 
+
+
+# Question 43
+
+### **Question:**
+
+> ***Write a program to Store and Display Information Using Structure.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+struct student
+{
+    char name[50];
+    int roll;
+    float marks;
+};
+
+int main() 
+{
+    student s;
+    cout << "Enter information:," << endl;
+    cout << "Enter name: ";
+    cin >> s.name;
+    cout << "Enter roll number: ";
+    cin >> s.roll;
+    cout << "Enter marks: ";
+    cin >> s.marks;
+
+    cout << "\nEntered Information:," << endl;
+    cout << "Name: " << s.name << endl;
+    cout << "Roll: " << s.roll << endl;
+    cout << "Marks: " << s.marks << endl;
+    return 0;
+}
+
+```
+----------------------------------------
+
