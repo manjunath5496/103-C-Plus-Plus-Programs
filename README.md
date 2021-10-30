@@ -2145,3 +2145,42 @@ return 0;
 }
 ```
 ----------------------------------------
+
+
+
+# Question 64
+
+### **Question:**
+
+> ***Write a program to demonstrate Scope resolution operator ::.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+ 
+// global variable (accessible to all functions)
+
+char c = 'a';     
+ 
+int main() {
+    
+ // local variable (accessible only in main function)
+ 
+  char c = 'b';   
+ 
+  cout << "Local  variable: " << c << "\n";      
+  cout << "Global variable: " << ::c << "\n";  
+ 
+  return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
