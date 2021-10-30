@@ -2331,4 +2331,35 @@ int main() {
 ```
 ----------------------------------------
 
+# Question 70
+
+### **Question:**
+
+> ***Write a program to find area and volume of sphere.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float Radius, Area, Volume, PI = 3.14;
+    
+    cout << "Enter Radius of Sphere : ";
+    cin >> Radius;
+    
+    Area = 4 * PI * Radius * Radius;
+    Volume = 4 * PI * Radius * Radius * Radius / 3;
+    
+    cout << "\n\nArea of Sphere is : " << Area;
+    cout << "\nVolume of Sphere is : " << Volume;
+    
+    return 0;
+}
+```
+----------------------------------------
 
