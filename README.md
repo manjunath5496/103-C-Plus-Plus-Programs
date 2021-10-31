@@ -3357,3 +3357,53 @@ int main()
 }  
 ```
 ----------------------------------------
+# Question 101
+
+### **Question:**
+
+> ***Write a program to read string using cin.getline().***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include  <iostream>
+using namespace std;
+ 
+// macro definitions for maximum length of variables
+
+#define MAX_NAME_LENGTH     50
+#define MAX_ADDRESS_LENGTH  100
+#define MAX_ABOUT_LENGTH    200
+ 
+using namespace std;
+ 
+int main()
+{
+    char name[MAX_NAME_LENGTH],address[MAX_ADDRESS_LENGTH],about[MAX_ABOUT_LENGTH];
+ 
+    cout << "Enter name: ";
+    cin.getline(name,MAX_NAME_LENGTH);
+ 
+    cout << "Enter email address: ";
+    cin.getline(address,MAX_ADDRESS_LENGTH);
+ 
+  //# is a delimiter 
+ 
+    cout << "Press # to complete : ";
+    cin.getline(about,MAX_ABOUT_LENGTH,'#');   
+ 
+    cout << "\nPlease check the details you entered :"<< endl;
+    cout << "Name: "  << name << endl;
+    cout << "Email Address: " << address << endl;
+   
+    return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
