@@ -3394,7 +3394,7 @@ int main()
     cout << "Press # to complete : ";
     cin.getline(about,MAX_ABOUT_LENGTH,'#');   
  
-    cout << "\nPlease check the details you entered :"<< endl;
+    cout << "Please check the details you entered :"<< endl;
     cout << "Name: "  << name << endl;
     cout << "Email Address: " << address << endl;
    
