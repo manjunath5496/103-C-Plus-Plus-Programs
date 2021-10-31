@@ -3429,6 +3429,38 @@ int main() {
 }
 ```
 ----------------------------------------
+# Question 103
+
+### **Question:**
+
+> ***Write a program to replace all non printable character by space.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <cctype>
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+int main()
+{
+    char str[] = "C++\tProgramming\nLanguage";
+
+    for (int i=0; i<strlen(str); i++)
+    {
+        if (!isprint(str[i]))
+            str[i] = ' ';
+    }
+
+    cout << str;
+    return 0;
+}
+```
+----------------------------------------
 
 
 
