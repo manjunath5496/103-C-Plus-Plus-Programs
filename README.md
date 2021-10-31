@@ -3164,3 +3164,33 @@ int main()
 
 ```
 ----------------------------------------
+# Question 95
+
+### **Question:**
+
+> ***Write a program to demonstrate Default Argument.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include  <iostream>
+using namespace std;
+ 
+//Default argument.
+int sum(int x, int y=10, int z=15)
+{
+    return (x+y+z);
+}
+ 
+int main()
+{
+    cout << "Sum is : " << sum(6)       << endl;
+    cout << "Sum is : " << sum(6,18)    << endl;
+    cout << "Sum is : " << sum(6,18,24) << endl;
+    return 0;
+}
+```
+----------------------------------------
+
