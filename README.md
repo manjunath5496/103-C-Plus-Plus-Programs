@@ -3324,3 +3324,36 @@ int main()
 }
 ```
 ----------------------------------------
+# Question 100
+
+### **Question:**
+
+> ***Write a program to Print 1 to 10 without Loop and Recursion.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+  
+int i=0;
+  
+class A
+{
+ public:
+    A()
+    {
+        i++;
+        cout<<i<<endl;
+    }
+};
+  
+int main()
+{
+    A B [10];
+    return 0;
+}  
+```
+----------------------------------------
