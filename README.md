@@ -3095,4 +3095,32 @@ int main()
 ```
 ----------------------------------------
 
+# Question 93
+
+### **Question:**
+
+> ***Write a program to shift given data by two bits to the left.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int a, b;
+cout<< "Enter a integer : ";
+cin>>a;
+cout<<"\nInteger value = "<<a<<endl;
+a<<=2;
+b=a;
+cout<<"The left shifted data is = " << b<<endl;
+return 0;
+}
+```
+----------------------------------------
 
