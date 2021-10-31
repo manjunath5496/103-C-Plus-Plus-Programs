@@ -3295,3 +3295,32 @@ using namespace std;
 
 ```
 ----------------------------------------
+# Question 99
+
+### **Question:**
+
+> ***Write a program to Divide and Multiply a number by Two using Bitwise Operator.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+  
+   int num = 16;
+
+   int a = num<<1;
+   int b = num>>1;
+   cout<<"16 x 2 : "<<a<<endl;
+   cout<<"16 / 2 : "<<b<<endl;
+   
+
+   return 0;
+}
+```
+----------------------------------------
