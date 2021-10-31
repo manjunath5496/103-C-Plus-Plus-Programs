@@ -3124,3 +3124,43 @@ return 0;
 ```
 ----------------------------------------
 
+
+# Question 94
+### **Question:**
+
+> ***Write a program to check whether a number is power of 2 or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter a number : ";
+    cin>>n;
+
+    if(n>0)
+    {
+        while(n%2 == 0)
+        {
+            n/=2;
+        }
+        if(n == 1)
+        {
+            cout<<"Entered Number is a power of 2"<<endl;
+        }
+    }
+    if(n == 0 || n != 1)
+    {
+        cout<<"Entered Number is not a power of 2"<<endl;
+    }
+    return 0;
+}
+
+```
+----------------------------------------
