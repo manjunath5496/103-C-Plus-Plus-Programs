@@ -3261,3 +3261,37 @@ int main()
 }
 ```
 ----------------------------------------
+# Question 98
+
+### **Question:**
+
+> ***Write a program to compute the area of a triangle.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+    int main()
+    {
+    	float side1, side2, side3, area, s;
+    	
+        cout<<" Enter the length of First side  of the triangle : ";
+    	cin>>side1;
+        cout<<" Enter the length of Second  side  of the triangle : ";
+    	cin>>side2;
+        cout<<" Enter the length of Third side  of the triangle : ";
+    	cin>>side3;	
+		s = (side1+side2+side3)/2;
+		area = sqrt(s*(s-side1)*(s-side2)*(s-side3));
+        cout<<" The area of the triangle is : "<< area << endl;
+        cout << endl;
+        return 0;
+    }
+
+```
+----------------------------------------
