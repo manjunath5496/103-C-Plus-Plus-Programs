@@ -3194,3 +3194,32 @@ int main()
 ```
 ----------------------------------------
 
+# Question 96
+
+### **Question:**
+
+> ***Write a program to illustrate the bitwise operators.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C++ language
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    int a = 8; 
+    int b = 3; 
+ 
+    cout << "Bitwise Operators : \n";
+    cout << "a & b = " << (a&b) << "\n";
+    cout << "a | b = " << (a|b) << "\n";
+    cout << "a ^ b = " << (a^b) << "\n";
+    cout << "~a = " << (~a) << "\n";
+    cout << "~b = " << (~b) << "\n";
+    cout << "a >> b = " << (a>>b) << "\n";
+    cout << "a << b = " << (a<<b) << "\n";
+}
+```
+----------------------------------------
